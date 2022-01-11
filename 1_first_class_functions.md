@@ -1,14 +1,14 @@
-* First Class Function 
-  
-  * A programming language is said to have first-class functions if it treats functions as first-class citizens.
+## First Class Function
+
+* A programming language is said to have first-class functions if it treats functions as first-class citizens.
 
 * First Class Citizen
   
-  * In [programming language design](https://en.wikipedia.org/wiki/Programming_language#Design_and_implementation "Programming language"), a **first-class citizen** (also **type**, **object**, **entity**, or **value**) in a given [programming language](https://en.wikipedia.org/wiki/Programming_language "Programming language") is an entity which supports all the operations generally available to other entities. These operations typically include being passed as an argument, returned from a function, modified, and assigned to a variable.
+  * In [programming language design](https://en.wikipedia.org/wiki/Programming_language#Design_and_implementation "Programming language"), a **first-class citizen** (also **type**, **object**, **entity**, or **value**) in a given [programming language](https://en.wikipedia.org/wiki/Programming_language "Programming language") is an entity which supports all the operations generally available to other entities. These operations typically include being passed as an argument, returned from a function, modified, and assigned to a variable. First class functions allow us to treat any other function as object.
 
 * Following snippets illustrates first class function concept according to definition:
   
-  * Assigned to a variable
+  * **Assigned to a variable**
     
     ```python
     def square(x):
@@ -18,7 +18,7 @@
     print(f(5))      
     ```
   
-  * Passed as argument    
+  * **Passed as argument**    
     
     ```python
     def cube(x):
@@ -33,7 +33,7 @@
     print(cubes)
     ```
   
-  * Passed as function
+  * **Passed as function (Here log_hi stores message)**
     
     ```python
     def logger(msg):

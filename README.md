@@ -1,7 +1,7 @@
 ## Python Concepts
 
-* [First Class Functions]()
+* [First Class Functions](https://github.com/rishabh279/Python-Concepts/blob/master/1_first_class_functions.md)
 
-* [Closure]()
+* [Closure](https://github.com/rishabh279/Python-Concepts/blob/master/2_Closure.md)
   
   
