@@ -2,7 +2,7 @@
 
 * Class methods use/take cls as convention. They change the properties/ attirbutes of class at class level meaning all these changes are reflected for all instances of class.
 
-* Static methods dont take any instance like regular instance methods or pass any class like class mehtods. The act as normal mehtods, we include them in class because of their logical connection with the class.
+* Static methods don't take any instance(eg self) like regular instance methods or take any class(eg cls) like class methods. The act as normal mehtods, we include them in class because of their logical connection with the class.
 
 * **Example**
   
@@ -42,7 +42,6 @@
           if day.weekday() == 5 or day.weekday() == 6:
               return False
           return True
-  ```
   
   emp_1 = Employee('Corey', 'Schafer', 50000)
   emp_2 = Employee('Test', 'Employee', 60000)
@@ -57,10 +56,10 @@
   emp_str_2 = 'Steve-Smith-30000'
   emp_str_3 = 'Jane-Doe-90000'
   
-  first, last, pay = emp_str_1.split('-')
-  
-  #new_emp_1 = Employee(first, last, pay)
-  new_emp_1 = Employee.from_string(emp_str_1)
+  #first, last, pay = emp_str_1.split('-')
+  #new_emp_1 = Employee(first, last, pay) -1
+  new_emp_1 = Employee.from_string(emp_str_1) # -2
+  #1 and 2 are equal, 2 is class method way
   
   print(new_emp_1.email)
   print(new_emp_1.pay)
@@ -68,7 +67,4 @@
   my_date = datetime.date(2016, 7, 11)
   
   print(Employee.is_workday(my_date))
-
-```
-
-```
+  ```
