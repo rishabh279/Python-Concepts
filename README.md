@@ -20,6 +20,8 @@
 
 * [str vs repr]()
 
-* [Duck Typing]()
+* [Duck Typing](https://github.com/rishabh279/Python-Concepts/blob/master/10_duck_typing_.md)
 
-* 
+* [OS Module]()
+  
+  
