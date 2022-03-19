@@ -10,4 +10,8 @@
 
 * [Modules & Packages](https://realpython.com/python-modules-packages)
 
+* [Styling - Pep8, Flake8](https://siderlabs.com/blog/about-style-guide-of-python-and-linter-tool-pep8-pyflakes-flake8-haking-pyling-7fdbe163079d/)
+
+* 
+
 
